@@ -1,0 +1,24 @@
+.stock.container {
+  text-align: center;
+  max-width: 1200px;
+}
+
+.stock {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+
+    .products {
+      padding: 1rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

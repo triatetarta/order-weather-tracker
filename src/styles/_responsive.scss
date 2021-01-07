@@ -1,0 +1,116 @@
+@media screen and (max-width: 600px) {
+  button {
+    padding: 10px 20px;
+    font-size: 0.8em;
+    margin-bottom: 1rem;
+  }
+
+  header {
+    .logo {
+      width: 25px;
+      height: 25px;
+      svg {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    .title {
+      h1 {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .home {
+    padding: 0 1.5rem;
+    h1 {
+      font-size: 1rem;
+    }
+    h2 {
+      font-size: 0.8rem;
+    }
+
+    button {
+      padding: 5px 10px;
+      font-size: 1em;
+    }
+  }
+
+  .forecast {
+    padding: 0 1.5rem;
+    margin-top: 0.5rem;
+    h3 {
+      font-size: 1rem;
+    }
+
+    .weather-data {
+      .weather__tagline {
+        p {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    .weather-data__box {
+      span {
+        .weather-data__value {
+          font-size: 2rem;
+        }
+      }
+    }
+    .tips {
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .stock {
+    margin-top: 0.5rem;
+
+    h3 {
+      font-size: 1rem;
+    }
+    .row {
+      flex-direction: column;
+
+      .column-1 {
+        width: 100%;
+      }
+      .column-2 {
+        margin: 0 auto;
+        width: 80%;
+        padding: 0 1rem;
+      }
+    }
+  }
+
+  .order {
+    padding: 0 1.7rem;
+    h3 {
+      font-size: 0.9rem;
+    }
+
+    .columns {
+      p {
+        font-size: 0.8rem;
+      }
+    }
+
+    .sum {
+      p {
+        padding: 0.3rem !important;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .modal {
+    width: 80%;
+    padding: 30px 20px;
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

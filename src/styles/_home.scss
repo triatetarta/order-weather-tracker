@@ -1,0 +1,22 @@
+.home {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+  }
+  button {
+    color: $main-color;
+    padding: 10px 20px;
+    font-size: 1.6em;
+    border: 2px solid $main-color;
+    margin: 30px 20px;
+  }
+}
+
+.home.container {
+  text-align: center;
+  max-width: 800px;
+}

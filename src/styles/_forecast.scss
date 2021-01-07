@@ -1,0 +1,13 @@
+.forecast.container {
+  text-align: center;
+  max-width: 800px;
+}
+
+.forecast {
+  .weather__tagline {
+    padding: 1rem 0;
+  }
+  .tips {
+    padding-top: 1rem;
+  }
+}

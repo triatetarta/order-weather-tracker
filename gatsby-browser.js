@@ -1,7 +1,4 @@
-/**
- * Implement Gatsby's Browser APIs in this file.
- *
- * See: https://www.gatsbyjs.com/docs/browser-apis/
- */
+import "./src/styles/main.scss"
+import { wrapRootElement as wrap } from "./root-wrapper"
 
-// You can delete this file if you're not using it
+export const wrapRootElement = wrap

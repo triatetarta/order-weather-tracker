@@ -1,0 +1,78 @@
+@import "./variables";
+
+.card {
+  width: 200px;
+  height: 360px;
+  overflow: hidden;
+  background-color: $main-color;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+
+  .card-image {
+    width: 200px;
+
+    .img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+  }
+
+  .card-title {
+    h3 {
+      font-size: 1rem;
+      color: $grey;
+      padding: 0 0.5rem 0.5rem 0.5rem;
+      margin-bottom: 5px;
+    }
+  }
+  .card-stock {
+    p {
+      font-size: 0.8rem;
+      color: $grey;
+    }
+  }
+
+  .card-quantity {
+    p {
+      font-size: 0.8rem;
+      color: $grey;
+    }
+  }
+  .card-price {
+    p {
+      font-size: 0.7rem;
+      color: $card-p-color;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .card-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+
+    .btn {
+      margin: 0 0 1rem 0.5rem;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: $main-color;
+        background-color: #2b86c5;
+        border: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

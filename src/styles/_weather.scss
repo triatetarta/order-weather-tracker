@@ -1,0 +1,29 @@
+.weather-data {
+  background-color: $bg-color;
+  padding: 2rem;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  margin-top: 2rem;
+
+  .weather__tagline {
+    p {
+      color: $main-color;
+      font-size: 1.2rem;
+    }
+  }
+
+  .weather-data__box {
+    span {
+      .weather-data__value {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .tips {
+    p {
+      font-weight: 200;
+    }
+  }
+}
